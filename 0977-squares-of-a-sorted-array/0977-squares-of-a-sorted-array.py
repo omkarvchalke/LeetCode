@@ -5,5 +5,8 @@ class Solution:
             ans.append(i*i)
         ans.sort()
         return ans
+# n log n
+
+
         
         
