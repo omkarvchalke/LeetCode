@@ -11,3 +11,5 @@ class Solution:
         else:
             ans = ans + word2[min_len:]
         return ans
+
+        #Time and Space O(m+n) -> appending string takes space
