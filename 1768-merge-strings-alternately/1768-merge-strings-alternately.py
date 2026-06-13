@@ -13,4 +13,4 @@ class Solution:
             ans.append(word2[min_len:])
         return "".join(ans)
 
-        #Time and Space O(m+n) -> appending string takes space
+        #Time and Space O(m+n) -> useing join function to reduce time and space
