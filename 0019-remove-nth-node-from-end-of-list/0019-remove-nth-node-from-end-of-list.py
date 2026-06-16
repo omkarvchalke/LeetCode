@@ -20,3 +20,6 @@ class Solution:
             curr = curr.next
 
         return dummy.next
+
+        #Time : O(n) -> Travelsal List + Making Array -> rebuilting list 
+        #Space : O(n) -> we created array 
