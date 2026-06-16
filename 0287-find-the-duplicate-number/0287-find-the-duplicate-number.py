@@ -6,3 +6,6 @@ class Solution:
             if num in seen:
                 return num
             seen.add(num)
+        
+        #Time : Space : O(n) -> we created a Set()
+        #Optimal Solution with Space O(1) -> Floyd's Cycle Detection
