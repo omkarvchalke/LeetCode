@@ -18,3 +18,6 @@ class Solution:
             return -heapq.heappop(stones)
         else:
             return 0
+
+#Time : O(n log n) -> doing while loop N times
+#Space: O(1) -> 
