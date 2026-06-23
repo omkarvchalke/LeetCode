@@ -13,4 +13,7 @@ class Solution:
             i = i+1
         
         return s[:i]
+
+        #Time : O(n*m)
+        #Space: O(1)
         
